@@ -85,3 +85,4 @@ function unflip(id) {
   if ($("#mainCard").hasClass("flipped"))
      $("#mainCard").removeClass("flipped");
  }
+ 
