@@ -1,0 +1,42 @@
+.countdown-container {
+  width: 500px;
+  color: white;
+  font: 12px arial, sans-serif;
+  border-radius: 6px;
+  background: #25f791; 
+  background: -webkit-linear-gradient(#BEF15C,#80A82F);
+  background: -o-linear-gradient(#BEF15C,#80A82F);
+  background: -moz-linear-gradient(#BEF15C,#80A82F);
+  background: linear-gradient(#BEF15C,#80A82F);
+}
+
+.countdown-table {
+  width: 100%;
+  height: 100%;
+}
+
+.countdown-title {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  width: 50%;
+  vertical-align:-10%;
+}
+
+.countdown-cell {
+  width: 12.5%;
+}
+
+.countdown-num {
+  font-size: 30px;
+  text-align: center;
+}
+
+.countdown-label {
+  font-size: 10px;
+  text-align: center;
+}
+
+.expired {
+  color: gray;
+}
