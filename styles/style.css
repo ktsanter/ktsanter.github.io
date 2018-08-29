@@ -1,13 +1,14 @@
 .tst-color-scheme {
-	--tst-color1: #2d3436;
-	--tst-color2: #f8f8f8;
-	--tst-color3: #c8c8c8;
+	--tst-color1: #135e6f;
+	--tst-color2: #ffffff;
+	--tst-color3:#2f8d98;
 }
 
 body {
 	color: var(--tst-color1);
 	background-color: var(--tst-color2);
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Gotham, Montserrat, "Noto Sans", Helvetica, Calibri, Arial, "Noto Serif", Garamond, "Times New Roman";
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-size: 13px;
 }
 
@@ -36,8 +37,11 @@ body {
 	padding-left: 4px;
 	padding-right: 4px;
 }
-}
 
 .tst-list {
 
+}
+
+a {
+    color: var(--tst-color3);
 }
