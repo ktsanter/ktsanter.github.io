@@ -86,7 +86,8 @@ const app = function () {
     
     if (newSection) {
       container.appendChild(CreateElement.createDiv(null, 'section-label', item.category));
-    }
+      container.appendChild(CreateElement.createBR());
+    }  
     
     var toolLink = CreateElement.createLink(null, 'section-contents', item.label, null, item.url);
     container.appendChild(toolLink);

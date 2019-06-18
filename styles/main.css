@@ -27,17 +27,21 @@ body {
   font-size: 1.2em;
   padding: 0.2em;
   margin-bottom: -0.6em;
+  max-width: 30em;
 }
 
-.contents {}
+.contents {
+
+}
 .section {}
 
 .section-label {
+  display: inline-block;
   color: #093c44;
   background-color: white;
   border: 1px solid #093c44;
-  border-radius: 6px;
-  padding: 0.1em 0em 0.1em 0.2em;
+  border-radius: 4px;
+  padding: 0.1em 0.3em 0.1em 0.2em;
   margin-top: 1.0em;
 }
 
